@@ -17,9 +17,8 @@ Route::get('timkiem','PagesController@timkiem');
 Route::get('chitiet',function(){
 	return view('default.pages.chitiet');
 });
-Route::get('dangki',function(){
-		return view('default.pages.dangki');
-});
+
+
 Route::get('dangnhap',function(){
 		return view('default.pages.dangnhap');
 });
@@ -43,7 +42,7 @@ Route::get('add',function(){
 Route::get('login',function(){
 	return view('admin.login');
 });
-
+//dfjgdfhgjdfhgjhdfjghfdjghdfgjdfkjgfjdg
 
 
 
@@ -53,7 +52,8 @@ Route::get('login',function(){
 //     return view('admin.layout.index');
 
 // });
-
+Route::get('dang-ki','UserConTroller@getRegister');
+Route::post('dang-ki','UserConTroller@postRegister');
 
                 
 

@@ -1184,6 +1184,9 @@ position: absolute;
 
 
 }
+.lienhe:hover{
+	height: 61px !important;
+}
 
 .main-menu li.current-menu-item {
 background:#3a5c83
@@ -1201,7 +1204,7 @@ font-size:16px
 
 }
 .main-menu .l-inline li a{
-
+		font-weight: 400;
 }
 
 .main-menu li:hover>.sub-menu {
@@ -1899,18 +1902,20 @@ margin-bottom:17px;
 }
 
 .product-new{
-	background: #217994;
-	width: 140px;
-	padding:12px;
+	background: #f97742;
+
+	padding:7px;
+	padding-left: 15px;
 
 	font-size:16px;
 	font-weight: bold;
 	color: #e7e7e7
 }
 .product-sell{
-	background: #217994;
-	width: 180px;
-	padding:12px;
+	background: #f97742;
+
+	padding:7px;
+	padding-left: 15px;
 	font-size:16px;
 	font-weight: bold;
 	color: #e7e7e7
@@ -2698,7 +2703,9 @@ background:#f7f7f7;
 width:35px;
 height:35px
 }
-
+.active1{
+	background: #1a1a1a;
+}
 .beta-calendar .ui-datepicker-calendar a.ui-state-active {
 background-color:#e8e8e8
 }
@@ -5180,12 +5187,16 @@ position: relative;}
     -o-transition: all 0.17s ease-in-out;
 }
 .main-menu li{position: relative;}
-.main-menu ul.l-inline> li> a:hover{background: #3a5c83;color:white;
+.main-menu ul.l-inline> li:hover {background: #1a1a1a;color:white;
 transition: all 0.17s ease-in-out;
     -moz-transition: all 0.17s ease-in-out;
     -webkit-transition: all 0.17s ease-in-out;
     -o-transition: all 0.17s ease-in-out;
     -webkit-backface-visibility: hidden;}
+    .main-menu ul.l-inline> li{
+    	border-right:1px solid white;
+    }
+
 .sub-menu{z-index:999;top: 31px;
 transition: all 0.17s ease-in-out;
     -moz-transition: all 0.17s ease-in-out;

@@ -1,12 +1,13 @@
 @extends('default.master')
 
 @section('content')
-	<div class="container">
-		<div class="pull-right">
+	<div class="container"><div class="pull-right">
 				<div class="beta-breadcrumb font-large">
 					<a href="index.html">Trang chủ</a> / <span>Giỏ hàng</span>
 				</div>
-			</div>
+			</div></div>
+	<div class="container">
+		
 		<div class="row" style="margin-bottom: 20px;"> {{-- start row --}}
 
 			<div class="col-md-5">
@@ -59,10 +60,10 @@
 			</div>
 
 			<div class="col-md-7">
-					<div>
-					<a style="border-bottom: 3px solid #FF0000;font-size: 20px;font-weight: bold;width: "><i class="fa fa-shopping-cart fa-2x" style="color: black"> </i>SẢN PHẨM ĐÃ CHỌN</a>
+					<div style="margin-bottom: 20px;">
+					<a style="border-bottom: 3px solid #FF0000;font-size: 20px;font-weight: bold; "><i class="fa fa-shopping-cart fa-2x" style="color: black"> </i>SẢN PHẨM ĐÃ CHỌN</a>
 					</div>
-					<form action="#" method="post">
+					<form  action="#" method="post">
 						
 						<table class="table table-bordered">
 							<thead>
@@ -92,7 +93,7 @@
 
 								</td>
 								<td><p>450.000đ</p></td>
-								<td><p><i style="color: red;" class="fa fa-trash-o"></i></p></td>
+								<td><p style="padding-left: 10px;"><i style="color: red;" class="fa fa-trash-o"></i></p></td>
 							</tr>
 							@endfor
 							</tbody>

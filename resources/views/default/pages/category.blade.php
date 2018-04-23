@@ -20,7 +20,7 @@
 				<div  class="row">
 					<div class="col-sm-12">
 						<div  class="beta-products-list">
-							<a  class="product-new" >Áo thời trang </a>
+							<h6  class="product-new" >Áo thời trang </h6>
 							<div style="margin-top:50px;" class="beta-products-details">
 								
 								<div class="clearfix"></div>

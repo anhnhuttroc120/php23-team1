@@ -15,16 +15,16 @@
 							</div>
 
 							<div class="row">
-								@foreach($bookNew as $book)
+								
 								<div  class="col-sm-3">
 									<div  class="single-item">
 										<div class="single-item-header">
-											<a href="chitiet/{{$book['id']}}"><img src="images/book/{{$book['picture']}}" alt=""></a>
+											<a href="chitiet/"><img src="images/book/" alt=""></a>
 										</div>
 										<div class="single-item-body">
-											<p class="name-product" style="height: 50px;"  class="single-item-title">{{$book['name']}}</p>
+											<p class="name-product" style="height: 50px;"  class="single-item-title"></p>
 											<p class="single-item-price">
-												<p class="price" >{{number_format($book['price'])}}<sup>đ</sup ></p>
+												<p class="price" ><sup>đ</sup ></p>
 											</p>
 										</div>
 										<div class="single-item-caption">
@@ -34,7 +34,7 @@
 										</div>
 									</div>
 								</div>
-								@endforeach
+								
 							</div>
 						</div> <!-- .beta-products-list -->
 
@@ -49,19 +49,19 @@
 						
 								
 							<div class="row">
-								@foreach($bookSale as $key =>$book)
+							
 								
 
 								<div  class="col-sm-3">
 									<div  class="single-item">
 										<div class="ribbon-wrapper"><div class="ribbon sale">Sale</div></div>
 										<div class="single-item-header">
-											<a href="chitiet/{{$book['id']}}"><img src="images/book/{{$book['picture']}}" alt=""></a>
+											<a href="chitiet/"><img src="images/book/" alt=""></a>
 										</div>
 										<div class="single-item-body">
-										<p class="name-product" style="height: 50px;"  class="single-item-title">{{$book['name']}}</p>
+										<p class="name-product" style="height: 50px;"  class="single-item-title"></p>
 											<p class="single-item-price">
-												<p class="price">{{number_format($book['price'])}} <sup>đ</sup><p>
+												<p class="price"> <sup>đ</sup><p>
 											</p>
 										</div>
 										<div class="single-item-caption">
@@ -72,7 +72,7 @@
 									</div>
 								</div>
 							
-								@endforeach	
+							
 							</div>
 							<div class="space40">&nbsp;</div>
 

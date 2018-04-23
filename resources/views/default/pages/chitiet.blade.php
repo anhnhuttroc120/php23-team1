@@ -133,7 +133,7 @@
 							<div class="col-sm-4">
 								<div class="single-item">
 									<div class="single-item-header">
-										<a href="product.html"><img src="assets/dest/images/products/4.jpg" alt=""></a>
+										<a href="product.html"><img src="source/assets/dest/images/products/4.jpg" alt=""></a>
 									</div>
 									<div class="single-item-body">
 										<p class="single-item-title">Sample Woman Top</p>
@@ -196,10 +196,10 @@
 						<div class="widget-body">
 							<div class="beta-sales beta-lists">
 								<div class="media beta-sales-item">
-									<a class="pull-left" href="product.html"><img src="assets/dest/images/products/sales/1.png" alt=""></a>
+									<a class="pull-left" href="product.html"><img src="source/assets/dest/images/products/sales/1.png" alt=""></a>
 									<div class="media-body">
 										Sample Woman Top
-										<span class="beta-sales-price">$34.55</span>
+										<span class="beta-sales-price">120.000 VNĐ </span>
 									</div>
 								</div>
 								<div class="media beta-sales-item">

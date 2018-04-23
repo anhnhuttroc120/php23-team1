@@ -1,4 +1,4 @@
-<div style="background: #217994" id="footer" >
+<div style="background: #f97742" id="footer" >
 		<div  class="container">
 			<div class="row" >
 				{{-- div class="col-sm-3">
@@ -42,7 +42,7 @@
 					<div class="widget">
 						<h4 class="widget-title">Đăng kí theo dõi</h4>
 						<form action="#" method="post">
-							<input type="email" name="your_email">
+							<input style="background: #e7e7e7;color: black"   type="email" name="your_email">
 							<button class="pull-right info" type="submit">Subscribe <i class="fa fa-chevron-right"></i></button>
 						</form>
 

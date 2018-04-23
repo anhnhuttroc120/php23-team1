@@ -4,11 +4,12 @@
 				
 				<div class="pull-right auto-width-right">
 					<ul class="top-details menu-beta l-inline">
-						<li><a href="#"><i class="fa fa-user"></i>Tài khoản</a></li>
-						<li><a href="#">Đăng kí</a></li>
+						
+						<li><a href="{{url('dang-ki')}}">Đăng kí</a></li>
 						<li><a href="#">Đăng nhập</a></li>
 						<li><a href="#">Đăng xuất</a></li>
-						<li><a href="#">Profile</a></li>
+						<li><a href="#"><i class="fa fa-user"></i>Tài khoản</a></li>
+						
 					</ul>
 				</div>
 				<div class="clearfix"></div>
@@ -84,7 +85,7 @@
 				<div class="clearfix"></div>
 			</div> <!-- .container -->
 		</div> <!-- .header-body -->
-		<div class="header-bottom" style="background-color: #217994;">
+		<div class="header-bottom" style="background-color: #f97742;">
 			<div class="container">
 				<a class="visible-xs beta-menu-toggle pull-right" href="#"><span class='beta-menu-toggle-text'>Menu</span> <i class="fa fa-bars"></i></a>
 				<div class="visible-xs clearfix"></div>
@@ -94,16 +95,18 @@
 
 
 						 
-						<li><a   href="index.html">Trang chủ</a></li>
-						<li><a href="#">Sản phẩm</a>
-							<ul class="sub-menu">
+						<li><a   href="index.html">TRANG CHỦ</a></li>
+						<li><a href="#">ĐẦM CÔNG SỞ</a>
+							{{-- <ul class="sub-menu">
 							
 								<li><a style="" href="category/"></a></li>
 								
-							</ul>
+							</ul> --}}
 						</li>
-						<li><a href="about.html">Giới thiệu</a></li>
-						<li><a href="contacts.html">Liên hệ</a></li>
+						<li><a href="about.html">ĐẦM DẠO PHỐ -DỰ TIỆC</a></li>
+						<li><a href="about.html">ÁO SƠ MI</a></li>
+						<li><a href="about.html">ĐỒ BỘ</a></li>
+						<li   class="lienhe" > <img style="width: 150px;height: 61px;"  src="images/right_menu.png" alt=""></li>
 					</ul>
 					<div class="clearfix"></div>
 				</nav>
