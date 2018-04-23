@@ -11,18 +11,37 @@
 |
 */
 
-Route::get('/', function () {
-    return view('admin.index');
+Route::get('trangchu','PagesController@index');
+Route::get('category','PagesController@category');
+Route::get('timkiem','PagesController@timkiem');
+Route::get('chitiet',function(){
+	return view('default.pages.chitiet');
 });
-Route::get('table',function(){
-	return view('admin.user.list');
+Route::get('dangki',function(){
+		return view('default.pages.dangki');
 });
-Route::get('add',function(){
-	return view('admin.user.add');
+Route::get('dangnhap',function(){
+		return view('default.pages.dangnhap');
 });
-Route::get('login',function(){
-	return view('admin.login');
+Route::get('giohang',function(){
+		return view('default.pages.giohang');
 });
-Route::post('check',function(){
-	echo '123';
+Route::get('error',function(){
+		return view('default.pages.404');
 });
+
+
+
+
+
+   
+
+// Route::get('home', function () {
+//     return view('admin.layout.index');
+
+// });
+
+
+                
+
+
