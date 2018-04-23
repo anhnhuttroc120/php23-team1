@@ -16,12 +16,15 @@
 
 							<input type="text" id="email" name="username">
 							@if($errors->has('username'))
-								<p class="alert alert-danger">{{$errors->first('username')}}</p>
+								<p style="padding-left: 200px;" class="text-danger">{{$errors->first('username')}}</p>
 							@endif
 						</div>
 						<div class="form-block">
 							<label for="email">Địa chỉ email <span style="color:red">*</span></label>
 							<input type="email" id="email" name="email" >
+							@if($errors->has('email'))
+								<p style="padding-left: 200px;" class="text-danger">{{$errors->first('email')}}</p>
+							@endif
 						</div>
 
 						<div class="form-block">
@@ -32,20 +35,33 @@
 						<div class="form-block">
 							<label for="adress">Địa chỉ<span style="color:red">*</span></label>
 							<input type="text" id="adress" value="" name="address" >
+							@if($errors->has('address'))
+								<p style="padding-left: 200px;" class="text-danger">{{$errors->first('address')}}</p>
+							@endif
 						</div>
 
 
 						<div class="form-block">
 							<label for="phone">Điện thoại<span style="color:red">*</span></label>
 							<input type="text" id="phone" name="phone" >
+								@if($errors->has('phone'))
+								<p style="padding-left: 200px;" class="text-danger">{{$errors->first('phone')}}</p>
+							@endif
 						</div>
 						<div class="form-block">
 							<label for="phone">Mật khẩu<span style="color:red">*</span></label>
-							<input type="text" id="phone" name="password" >
+							<input type="password" id="phone" name="password" >
+								@if($errors->has('password'))
+								<p style="padding-left: 200px;" class="text-danger">{{$errors->first('password')}}</p>
+							@endif
 						</div>
 						<div class="form-block">
 							<label for="phone">Nhập lại mật khẩu<span style="color:red">*</span></label>
-							<input type="text" id="phone" name="re-password" >
+							<input type="password" id="phone" name="re-password" >
+							@if($errors->has('re-password'))
+								<p style="padding-left: 200px;" class="text-danger">{{$errors->first('re-password')}}</p>
+							@endif
+
 						</div>
 						<div class="form-block" style="padding-left: 200px;">
 							<button style="background:#217994;color: #e7e7e7;font-weight: bold; " type="submit" class="btn">Đăng kí</button>

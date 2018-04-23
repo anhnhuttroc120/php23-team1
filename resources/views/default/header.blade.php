@@ -4,11 +4,18 @@
 				
 				<div class="pull-right auto-width-right">
 					<ul class="top-details menu-beta l-inline">
-						
+						@if(Auth::check())
+					
+						<li style="position: relative"><a href="{{url('profile')}}"><i class="fa fa-user"></i>Chào bạn ! {{Auth::user()->fullname}} </a>
+							
+				
+						</li>
+							<li><a href="{{url('dang-xuat')}}">Đăng xuất</a></li>
+						@else
 						<li><a href="{{url('dang-ki')}}">Đăng kí</a></li>
-						<li><a href="#">Đăng nhập</a></li>
-						<li><a href="#">Đăng xuất</a></li>
-						<li><a href="#"><i class="fa fa-user"></i>Tài khoản</a></li>
+						<li><a href="{{url('dang-nhap')}}">Đăng nhập</a></li>
+						@endif
+						
 						
 					</ul>
 				</div>
@@ -95,7 +102,7 @@
 
 
 						 
-						<li><a   href="index.html">TRANG CHỦ</a></li>
+						<li><a   href="{{url('trang-chu')}}">TRANG CHỦ</a></li>
 						<li><a href="#">ĐẦM CÔNG SỞ</a>
 							{{-- <ul class="sub-menu">
 							

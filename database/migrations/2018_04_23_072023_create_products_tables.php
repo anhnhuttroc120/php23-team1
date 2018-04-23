@@ -19,7 +19,7 @@ class CreateProductsTables extends Migration
             $table->string('slug');
             $table->decimal('price');
             $table->tinyInteger('special');
-            $table->integer('product_detail_id');
+            
             $table->integer('users_id');
             $table->integer('category_id');
             $table->timestamps();

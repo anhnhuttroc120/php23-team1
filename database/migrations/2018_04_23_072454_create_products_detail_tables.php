@@ -15,15 +15,13 @@ class CreateProductsDetailTables extends Migration
     {
         Schema::create('product_detail', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('size');
-            $table->string('color');
-            $table->text('picture_1');
-            $table->text('picture_2');
-            $table->text('picture_3');
-            $table->text('picture_4');
-            $table->text('picture_5');
+            $table->text('size');
+            $table->text('color');
+            $table->text('picture');
+           
             $table->text('description');
             $table->integer('sale_off');
+            $table->integer('products_id');
             
 
             $table->timestamps();
