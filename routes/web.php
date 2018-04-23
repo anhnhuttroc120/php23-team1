@@ -31,6 +31,19 @@ Route::get('error',function(){
 });
 
 
+Route::get('/',function(){
+	return view('admin.index');
+});
+Route::get('table',function(){
+	return view('admin.user.list');
+});
+Route::get('add',function(){
+	return view('admin.user.add');
+});
+Route::get('login',function(){
+	return view('admin.login');
+});
+
 
 
 
